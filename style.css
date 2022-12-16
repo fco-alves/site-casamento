@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-weight: 300;
+	color: #fff;
+}
+
+img {
+	filter: grayscale(50%) contrast(80%) brightness(50%);
+}
+
+/* Hero section */
+
+.parallax-container {
+	height: 1024px;
+}
+
+/* Regular nav */
+
+nav {
+	position: fixed;
+	z-index: 999;
+	color: grey;
+}
+
+nav i {
+	color: #000;
+}
+
+nav ul li a {
+	color: #424242;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+nav .brand-logo {
+	font-family: "Sacramento", cursive;
+	color: #424242;
+}
+
+/* Mobile nav */
+
+.side-nav li > a {
+	color: #eee;
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 32px;
+}
+
+.side-nav i.material-icons.right {
+	color: #eee;
+}
+
+/* Content in hero */
+
+.intro {
+	margin: 300px auto;
+	letter-spacing: 3px;
+	color: #fff;
+	font-weight: 300;
+}
+
+header h1 {
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 6px;
+}
+
+header h4,
+header h5 {
+	color: #fff;
+	font-weight: 300;
+}
+
+/* Details */
+
+.info {
+	margin-top: 300px;
+}
+
+/* RSVP section */
+
+.rsvp {
+	margin-top: 325px;
+	letter-spacing: 3px;
+}
+
+.cta {
+	margin-top: 50px;
+}
+
+.cta>a {
+	color: #424242;
+	font-weight: 600;
+}
+
+
+@media (max-width:600px) {
+	
+  .parallax-container {
+	height: 768px;
+}
+		
+	.info {
+		margin-top: 200px;
+	}
+	
+	.rsvp{
+		margin-top: 250px;
+	}
+	
+	h1 {
+		font-size: 2em;
+	}
+	
+	h4, h5 {
+		font-size: 1.2em;
+	}
+}
